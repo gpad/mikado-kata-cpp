@@ -4,10 +4,11 @@
 
 class DLL_EXPORT UI {
 private:
-	Application application;
+	Application *_application;
 	std::string leeted;
 
 public:
+	UI(Application *application);
 	std::string EncryptMessage(std::string unLeeted);
 
 	void SetLeeted(std::string leeted);

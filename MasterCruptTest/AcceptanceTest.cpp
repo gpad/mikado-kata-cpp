@@ -5,6 +5,7 @@
 
 
 TEST(MasterCruptAT, testSecret) {
-	auto ui = new UI();
+	Application app;
+	auto ui = new UI(&app);
 	EXPECT_EQ("Leeted: S3cr3t", ui->EncryptMessage("Secret"));
 }

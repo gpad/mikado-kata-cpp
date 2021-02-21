@@ -15,9 +15,13 @@ public:
 };
 
 
+UI::UI(Application * application) : _application(application)
+{
+}
+
 inline std::string UI::EncryptMessage(std::string unLeeted)
 {
-	application.Leet(unLeeted, this);
+	_application->Leet(unLeeted, this);
 	return "Leeted: " + leeted;
 }
 
@@ -39,6 +43,7 @@ inline void Application::Leet(std::string message, UI * ui)
 
 inline void Application::Run(int argc, char * argv[])
 {
-	auto ui = new UI();
+	Application app;
+	auto ui = new UI(&app);
 	delete ui;
 }
