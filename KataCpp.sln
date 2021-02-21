@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MasterCrupt", "MasterCrupt\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MasterCruptTest", "MasterCruptTest\MasterCruptTest.vcxproj", "{CA651211-3A17-4205-9DB2-0C05CB17036C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrangerEons", "StrangerEons\StrangerEons.vcxproj", "{CFDB721C-C196-4D2C-8F03-53BB0518117B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{CA651211-3A17-4205-9DB2-0C05CB17036C}.Release|x64.Build.0 = Release|x64
 		{CA651211-3A17-4205-9DB2-0C05CB17036C}.Release|x86.ActiveCfg = Release|Win32
 		{CA651211-3A17-4205-9DB2-0C05CB17036C}.Release|x86.Build.0 = Release|Win32
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Debug|x64.ActiveCfg = Debug|x64
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Debug|x64.Build.0 = Debug|x64
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Debug|x86.Build.0 = Debug|Win32
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Release|x64.ActiveCfg = Release|x64
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Release|x64.Build.0 = Release|x64
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Release|x86.ActiveCfg = Release|Win32
+		{CFDB721C-C196-4D2C-8F03-53BB0518117B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
