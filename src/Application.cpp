@@ -6,7 +6,7 @@
 
 void Application::Leet(std::string message, UI *ui)
 {
-  ui->SetLeeted(Leeter::Leet(message));
+  ui->SetLeeted(_leeter->Leet(message));
 }
 
 void Application::Run(int argc, char *argv[])
@@ -16,7 +16,8 @@ void Application::Run(int argc, char *argv[])
   {
     algo = std::make_unique<Leeter>();
   }
-  auto ui = new UI();
+
+  auto ui = new UI(new Application(algo.get()));
   std::cout << ui->LeetMessage(argv[1]);
   delete ui;
 }

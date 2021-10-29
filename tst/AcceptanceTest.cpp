@@ -4,15 +4,18 @@
 #include "UI.h"
 #include "Leeter.h"
 
+Leeter l;
+Application a(&l);
+
 TEST(MasterCruptAT, testSecret)
 {
-	UI ui;
+	UI ui(&a);
 	EXPECT_EQ("Leeted: S3cr3t", ui.LeetMessage("Secret"));
 }
 
 TEST(MasterCruptAT, SelectAlgoSpeak)
 {
-	UI ui;
+	UI ui(&a);
 	char *dummy_args[] = {const_cast<char *>("Secret"), const_cast<char *>("speak"), NULL};
 	Application::Run(2, dummy_args);
 	EXPECT_EQ("Leeted: S3cr3t", ui.LeetMessage("Secret"));

@@ -12,7 +12,7 @@ public:
 class Leeter
 {
 public:
-  static std::string Leet(std::string message);
+  std::string Leet(std::string message);
 };
 
 class Underscore

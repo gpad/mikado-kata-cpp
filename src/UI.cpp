@@ -3,7 +3,7 @@
 
 std::string UI::LeetMessage(std::string unLeeted)
 {
-  application.Leet(unLeeted, this);
+  _application->Leet(unLeeted, this);
   return "Leeted: " + leeted;
 }
 
