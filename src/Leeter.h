@@ -9,14 +9,14 @@ public:
   virtual std::string Leet(std::string message) = 0;
 };
 
-class Leeter
+class Leeter : public EncryptAlgorithm
 {
 public:
   std::string Leet(std::string message);
 };
 
-class Underscore
+class Underscore : public EncryptAlgorithm
 {
 public:
-  std::string Encrypt(std::string message);
+  std::string Leet(std::string message);
 };
