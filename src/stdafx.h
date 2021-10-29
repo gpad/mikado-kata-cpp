@@ -16,6 +16,7 @@
 #endif
 
 #include <string>
+#include <iostream>
 
 // reference additional headers your program requires here
 #include "MasterCrupt.h"

@@ -6,5 +6,5 @@
 TEST(MasterCruptAT, testSecret)
 {
 	auto ui = new UI();
-	EXPECT_EQ("Leeted: S3cr3t", ui->EncryptMessage("Secret"));
+	EXPECT_EQ("Leeted: S3cr3t", ui->LeetMessage("Secret"));
 }
