@@ -6,7 +6,7 @@
 
 void Application::Leet(std::string message, UI *ui)
 {
-  ui->SetLeeted(_leeter->Leet(message));
+  ui->SetLeeted(_algo->Encrypt(message));
 }
 
 bool isUnder(int argc, char *argv[])

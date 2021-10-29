@@ -51,5 +51,5 @@ TEST(MasterCruptAT, SelectAlgoUnder)
 TEST(UnderscoreTest, encryptMessage)
 {
 	Underscore u;
-	EXPECT_EQ(u.Leet("Secret"), "S_cr_t");
+	EXPECT_EQ(u.Encrypt("Secret"), "S_cr_t");
 }
