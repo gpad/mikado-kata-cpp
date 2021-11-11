@@ -12,6 +12,6 @@ void Application::Leet(std::string message, UI *ui)
 void Application::Run(int argc, char *argv[])
 {
   auto ui = new UI();
-  std::cout << ui->LeetMessage(argv[0]);
+  std::cout << ui->LeetMessage(argv[1]);
   delete ui;
 }
